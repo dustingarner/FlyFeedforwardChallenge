@@ -1,5 +1,4 @@
 import os
-import time
 import pandas as pd
 
 class MaxHeap:
@@ -258,9 +257,7 @@ def export_order(neur_order):
 
 if __name__ == '__main__':
     weights_list = import_dataset()
-    #beginning = time.time()
     neur_order = get_min_feedback_order(weights_list)
-    #print(time.time()-beginning)
     print('Feedforward count:', get_feedforward_count(weights_list, neur_order))
-    #export_order(neur_order)
+    export_order(neur_order)
 
