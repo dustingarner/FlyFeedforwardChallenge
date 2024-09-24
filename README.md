@@ -5,3 +5,4 @@ This codebase implements GreedyFAS, [Section 2.3 of this paper](http://www.vldb.
 
 ## Install
 `pip install pandas`
+The necessary connectome_graph.csv file can be downloaded from [here](https://codex.flywire.ai/app/mfas_challenge?download=connectome_graph) and placed in the same directory as main.py.
